@@ -1,3 +1,7 @@
+-- =============================
+-- BASIC QUERIES
+-- =============================
+
 --aficher tous les employés
 SELECT *
 FROM 
@@ -41,3 +45,18 @@ FROM
 	absences
 GROUP BY
 	absence_type;
+
+--======================
+--JOIN QUERIES
+--======================
+
+-- Employées avec leur départment
+SELECT
+	first_name,
+	last_name,
+	department_name
+FROM
+	employees
+INNER JOIN
+	departments
+	ON employees.department_id = departments.department_id;
