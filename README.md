@@ -1,4 +1,4 @@
-# 📊 Analyse SQL de données RH — Projet SIRH
+# 📊 Analyse SQL de données RH - Projet SIRH
 
 ## Présentation
 
