@@ -34,3 +34,15 @@ FROM
 	employees
 ORDER BY 
 	hire_date LIMIT 10;
+
+--objectif: mesurer l'ancienneté des employés les plus anciens
+--l'ancienneté est un indicateur clé en RH pour analyser la retention,
+--identifier les profils expériemntés et antciper les départs potentiels (ex, retraite)
+SELECT
+	first_name,
+	last_name,
+	hire_date
+FROM
+	employees
+ORDER BY 
+	hire_date LIMIT 10;
