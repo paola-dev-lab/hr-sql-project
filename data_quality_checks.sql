@@ -13,7 +13,7 @@ FROM
 WHERE
 	department_id IS NULL;
 
--- employées sans date d'emabauche
+-- employées sans date d'embauche
 SELECT
 	employee_id,
 	first_name,
@@ -23,3 +23,12 @@ FROM
 	employees
 WHERE
 	hire_date IS NULL;
+
+--absences sans employée
+SELECT
+	absence_id,
+	employee_id
+FROM
+	absences
+WHERE
+	employee_id IS NULL;
