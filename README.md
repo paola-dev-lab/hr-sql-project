@@ -8,12 +8,12 @@
 
 ## Fonctions spécifiques utilisées :
 
-random()
-generate_series()
-AGE()
-GROUP BY
-ORDER BY
-INNER JOIN()
+random(),
+generate_series(),
+AGE(),
+GROUP BY,
+ORDER BY,
+INNER JOIN(),
 AVG()
 
 ## Présentation
