@@ -13,3 +13,13 @@ FROM
 WHERE
 	department_id IS NULL;
 
+-- employées sans date d'emabauche
+SELECT
+	employee_id,
+	first_name,
+	last_name,
+	hire_date
+FROM
+	employees
+WHERE
+	hire_date IS NULL;
